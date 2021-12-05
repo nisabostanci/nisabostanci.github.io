@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;900&subset=latin&display=swap');
+:root {
+	--cream: hsl(38 47% 75%);
+	--black: hsl(20 3% 19%);
+	--red: #ea6962;
+	--orange: #e78a4e;
+	--yellow: #d8a657;
+	--green: #a9b665;
+	--aqua: #89b482;
+	--ff: "Rubik", sans-serif;
+  --roboto: 'Roboto', sans-serif;
+}
+body {
+  background-color:#090909;
+}
+h1 {
+  font-family:'Rubik', sans-serif;
+  color:var(--yellow);
+  font-size:3rem;
+  font-weight:500;
+}
+h2 {
+  font-weight:400;
+  color:var(--aqua);
+  font-size:1.25rem;
+}
+.idcard {
+  position:absolute;
+  background-color:#101010;
+  width:15%;
+  left:15%;
+  top:5%;
+  padding-bottom:20px;;
+  box-shadow:5px 5px 10px #050505, -5px -5px 10px #050505;
+  border: 1px solid var(--red);
+  border-radius: 10px;
+}
+.cardimage {
+  width:90%;
+  margin-top:9%;
+}
+h3 {
+  font-family:var(--roboto);
+  font-size:2rem;
+  font-weight:black;
+  text-align:center;
+  color:var(--red);
+  margin-top:0%;
+  padding:0px;
+  margin-bottom:0%;
+}
+h4 {
+  font-family:var(--roboto);
+  font-size:1.2rem;
+  font-weight:100;
+  text-align:center;
+  color:var(--orange);
+  margin-top:0%;
+  padding:0px;
+  margin-bottom:5%;
+}
+a {
+  font-size:1rem;
+  font-family:var(--roboto);
+  color:var(--aqua);
+  text-decoration:none;
+}
+content {
+  
+}
+#content a {
+  font-size:1rem;
+  font-family:var(--roboto);
+  font-weight:500;
+  color:var(--red);
+  text-decoration:none;
+}
+.contentarea {
+  position:absolute;
+  top:0;
+  right:0;
+  width:68%;
+  height:100%;
+  background-color:#151515;
+  text-align:justify;
+}
+.contenttxt {
+  width:90%;
+  padding-left:3%;
+  text-align:justify;
+  font-size:1rem;
+  font-family:var(--ff);
+  font-weight:400;
+  color:#ddd;
+}
+emph {
+  font-weight:500;
+  color:var(--green);
+}
+
