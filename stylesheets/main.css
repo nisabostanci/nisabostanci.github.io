@@ -10,7 +10,7 @@
 	--orange: #e78a4e;
 	--yellow: #d8a657;
 	--green: #a9b665;
-	--aqua: #89b482;
+	--aqua: #5a9152;
 	--ff: "Rubik", sans-serif;
   --roboto: 'Roboto', sans-serif;
 }
@@ -27,7 +27,7 @@ h1 {
 h2 {
   font-weight:500;
   color:var(--black);
-  font-size:1.25rem;
+  font-size:2rem;
   padding-top:1em;
   margin-bottom:0.5em;
   padding:5px;
@@ -37,7 +37,7 @@ h2 {
   background-color:var(--background);
   width:15%;
   min-width:150px;
-  left:15%;
+  left:5%;
   top:5%;
   padding-bottom:20px;;
   box-shadow:5px 5px 10px var(--shadow), -5px -5px 10px var(--shadow);
@@ -64,7 +64,7 @@ h3 {
 }
 h4 {
   font-family:var(--roboto);
-  font-size:1.2rem;
+  font-size:1.5rem;
   font-weight:400;
   text-align:center;
   color:var(--orange);
@@ -81,7 +81,6 @@ a {
 }
 b {
   font-weight:500;
-  color:var(--aqua);
 }
 li {
   margin-bottom:1em;
@@ -103,8 +102,8 @@ content {
 .contentarea {
   position:absolute;
   top:0;
-  right:0;
-  width:68%;
+  left:22%;
+  width:70%;
   min-height: 100vh;
   background-color:var(--background);
   text-align:justify;
@@ -122,7 +121,7 @@ content {
 }
 emph {
   font-weight:500;
-  color:var(--green);
+  color:var(--aqua);
 }
 
 .divider {
