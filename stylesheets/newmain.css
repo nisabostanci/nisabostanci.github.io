@@ -77,7 +77,6 @@ a:hover {
 
 .cardimage img {
     width: 100%;
-    max-width: 300px;
     height: auto;
 }
 
@@ -105,7 +104,7 @@ a:hover {
     background-color: var(--red);
     height: 1px;
     margin-bottom: 10px;
-    margin-top:-3%;
+    margin-top:-1.5%;
 }
 
 @media (max-width: 768px) {
@@ -120,9 +119,9 @@ a:hover {
     }
 }
 
-@media (min-width: 2000px) {
+@media (max-width: 2000px) {
     .divider {
-        margin-top: -1.5%;
+        margin-top: -3%;
     }
 }
 
@@ -134,6 +133,7 @@ ul {
 ul li {
     position: relative;
     padding-left: 6em; /* Space for the box */
+    width:87%;
 }
 
 ul li br {
