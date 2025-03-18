@@ -128,12 +128,12 @@ a:hover {
 ul {
     list-style: none; /* Remove default bullets */
     padding-left: 0;
+    width:98%;
 }
 
 ul li {
     position: relative;
     padding-left: 6em; /* Space for the box */
-    width:87%;
 }
 
 ul li br {
